@@ -1,0 +1,92 @@
+
+{
+  "users": [
+    {
+      "id": "admin1",
+      "username": "vought_admin",
+      "role": "admin",
+      "email": "admin@vought.com",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "supe1",
+      "username": "homelander",
+      "role": "supe",
+      "email": "homelander@vought.com",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "citizen1",
+      "username": "hughie",
+      "role": "citizen",
+      "email": "hughie@gmail.com",
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "supes": [
+    {
+      "id": "supe1",
+      "name": "Homelander",
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820",
+      "powers": ["Flight", "Super Strength", "Heat Vision", "Invulnerability"],
+      "affiliation": "The Seven",
+      "status": {
+        "lastLocation": "New York City",
+        "currentActivity": "On patrol",
+        "timestamp": "2024-03-14T15:30:00Z"
+      },
+      "rating": 4.5,
+      "controversies": [
+        {
+          "id": "c1",
+          "title": "Plane Incident",
+          "description": "Refused to save a commercial airplane",
+          "date": "2024-02-15"
+        }
+      ],
+      "achievements": [
+        {
+          "id": "a1",
+          "title": "City Savior",
+          "description": "Prevented terrorist attack in NYC",
+          "date": "2024-01-20"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "news1",
+      "title": "Homelander Saves Downtown",
+      "content": "In a spectacular display of heroism, Homelander prevented a major disaster in downtown...",
+      "category": "heroic",
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820",
+      "likes": 1200,
+      "dislikes": 50,
+      "createdAt": "2024-03-14T12:00:00Z",
+      "createdBy": "vought_admin"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "incident1",
+      "title": "Collateral Damage in Brooklyn",
+      "description": "Several buildings damaged during superhero confrontation",
+      "location": "Brooklyn, NY",
+      "timestamp": "2024-03-14T10:30:00Z",
+      "reportedBy": "citizen1",
+      "verified": true,
+      "likes": 230,
+      "dislikes": 45,
+      "comments": [
+        {
+          "id": "comment1",
+          "content": "I witnessed this, it was chaos!",
+          "userId": "citizen1",
+          "username": "hughie",
+          "createdAt": "2024-03-14T11:00:00Z"
+        }
+      ]
+    }
+  ]
+}
